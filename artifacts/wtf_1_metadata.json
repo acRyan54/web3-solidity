@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_string",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WTF\\wtf_1.sol": "wtf_1"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WTF\\wtf_1.sol": {
+			"keccak256": "0x32a53f76963623caed0d3c44875eb601b5dd1feead849b27c476e84ce652b122",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1fd4c1c1bfb263e8d6dfca0ebdb8500f044b60eee75b32f7da059c23866dffe3",
+				"dweb:/ipfs/QmbB1Mtma3vYvc5Tqg19ddnc6DBJvefE4h3XT1Z4JSYZLo"
+			]
+		}
+	},
+	"version": 1
+}

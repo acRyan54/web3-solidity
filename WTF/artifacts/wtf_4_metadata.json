@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "add_view",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "res",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "n",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "res0",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WTF/wtf_4.sol": "wtf_4"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WTF/wtf_4.sol": {
+			"keccak256": "0xd0bbb30812516dd1ad7d6c2c35cb1f94188bdd79337d1d1411e638c102410f01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b1d5881f924e44ab688645e810478214adf765a11c7a01bea850e03d9847c883",
+				"dweb:/ipfs/QmNttYnSN6DQso6pQxXYNEv8yaF9jJzqzuNbBy5cJhNwJE"
+			]
+		}
+	},
+	"version": 1
+}
