@@ -7,35 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "minusCall",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minusPayable",
+				"name": "getFirstName",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "balance",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "number",
-				"outputs": [
-					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLastName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -52,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WTF/wtf_5.sol": "wtf_5"
+			"WTF/wtf_14(interface).sol": "Base"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -66,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"WTF/wtf_5.sol": {
-			"keccak256": "0x7ec74bbf72da2d66cef9d79e4e7abfcdbefcac8e5bf9e931ac9553d5abc83493",
+		"WTF/wtf_14(interface).sol": {
+			"keccak256": "0x0c1f226fbc7e730a480740ca516f03a0010371e41a1332fbf39504688b472ac8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d622381721a65c723e1ecb8317c3bad290ba1b7313de6a220be500a9f320095",
-				"dweb:/ipfs/QmaUMnCabweDuUpR8Wh4aPyyAaF7UcX7wNEAzN7UG78AkL"
+				"bzz-raw://e25283c06482594743c2e880478ff3631357f7b128d7187462de69837d5ef6cf",
+				"dweb:/ipfs/QmcYZfwP1EwhCpU4Xm9kt3cbFw877KBemnRZkgFSveBFQF"
 			]
 		}
 	},

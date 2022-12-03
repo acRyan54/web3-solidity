@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WTF/wtf_8.sol": "wft_8"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WTF/wtf_8.sol": {
+			"keccak256": "0x99bd9197f45c90fdb35031169303577ec4421a6a3efe7172b9fac601267de814",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ff1ab9ab7168ebff4da0aa868f6f55dbf2cdde54d49d95b71e46ab6d3f1d26c",
+				"dweb:/ipfs/QmWhuXjoKHQx6jir6JKbCp2smhEK19QBET6JV8WreNYc6N"
+			]
+		}
+	},
+	"version": 1
+}

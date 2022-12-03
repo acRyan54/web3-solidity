@@ -6,28 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "minusCall",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "minusPayable",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "balance",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "payable",
-				"type": "function"
+				"name": "Log",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "number",
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -37,6 +36,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -52,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WTF/wtf_5.sol": "wtf_5"
+			"WTF/wtf_16(sendETH).sol": "ReceiveETH"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -66,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"WTF/wtf_5.sol": {
-			"keccak256": "0x7ec74bbf72da2d66cef9d79e4e7abfcdbefcac8e5bf9e931ac9553d5abc83493",
+		"WTF/wtf_16(sendETH).sol": {
+			"keccak256": "0xb685f55aa3eaff92fbba9e32114cb0892ca56b447182116d3ea3b7fd3f3fce9e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d622381721a65c723e1ecb8317c3bad290ba1b7313de6a220be500a9f320095",
-				"dweb:/ipfs/QmaUMnCabweDuUpR8Wh4aPyyAaF7UcX7wNEAzN7UG78AkL"
+				"bzz-raw://4b0582013fc9814cbf8f7c514f098f5bcdfa89943148f60de7139b759607d9f7",
+				"dweb:/ipfs/QmVS35Mne4pD21wQLeWzSFRRAv2gnRk4UXsMz826R6sv3d"
 			]
 		}
 	},

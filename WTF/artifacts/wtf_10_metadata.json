@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "a",
+						"type": "uint256[]"
+					}
+				],
+				"name": "insertionSort",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WTF/wtf_10.sol": "wtf_10"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WTF/wtf_10.sol": {
+			"keccak256": "0x4ee944645684b6dfa4fb43080398c8654d320c1d85a9afad223288f4c8f823d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc4dc22eba964f069d42dd1d145dfca80149063f3444252eaf1024615c6ae454",
+				"dweb:/ipfs/QmPc55GQp1NG72B6gHRV463B7GCAHjaAjBfMrRs7KJUKD4"
+			]
+		}
+	},
+	"version": 1
+}

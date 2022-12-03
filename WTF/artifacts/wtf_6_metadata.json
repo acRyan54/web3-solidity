@@ -23,6 +23,39 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fMemory",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -46,18 +79,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"WTF/wtf_6.sol": {
-			"keccak256": "0x7ebb8b176da1f2fc00460b80bc19ce8cb395ffdfa28cac16eb61476a22cffd42",
+			"keccak256": "0xaab9e8db3f37db70c5586bbe964abd906b6c87ed169366c6a4a6fb2b3aed217b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://58f6e33a5efe6c1be1558b2a11225ada3e4e6ec0383c699ce538738df9d52cd4",
-				"dweb:/ipfs/QmWtkKbnNaqdJqv3kkAsfpgHBW4ZoQSBjsn1ZKkq7yf8jR"
+				"bzz-raw://225dd0e0af316a15eccd4f01cf3f198b15161cfb5026faafde36925a1a218d45",
+				"dweb:/ipfs/QmZK6tnASLtbaXyhQ7xhq29G8VhTYuQqQy7fDFgDhrbUrh"
 			]
 		}
 	},

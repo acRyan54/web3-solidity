@@ -6,10 +6,52 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
-				"name": "add",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -20,54 +62,9 @@
 						"type": "uint256"
 					}
 				],
-				"name": "add_pure",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "res",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "add_view",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "res",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "n",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "res0",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -84,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WTF/wtf_4.sol": "wtf_4"
+			"WTF/wtf_18(Call).sol": "OtherContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -98,12 +95,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"WTF/wtf_4.sol": {
-			"keccak256": "0x3ad06281cfd5c6d63bc8ca85aaa068dfd2239cc362188f4446c144a9c844559d",
+		"WTF/wtf_18(Call).sol": {
+			"keccak256": "0x37211420cf2575629ca5c7f67995b330c3c4855d843d577437b1ac3c72a8c3c1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://940d1b17b7d115f936c9fa4cd2b141fb5f1e5efd280dcb8c96385054bf8c016c",
-				"dweb:/ipfs/QmNfjwCJyb8gZpC7uxTuWFmpGiZ1ZJ6X3cJTKsY3AQUFVi"
+				"bzz-raw://de2489acd12bfa2f2cecd8b9b1c354169fc2260d7563e68073ba0a3fdbdf7f3c",
+				"dweb:/ipfs/Qmcaoo6UW9gByTR6LYvyGyf1VjGmN5rB2ybRpJPsUKBy4S"
 			]
 		}
 	},
